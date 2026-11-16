@@ -1,0 +1,127 @@
+{
+ "dataset": "Marquette menstrual cycle data (FedCycleData071012.csv)",
+ "n_cycles": 1498,
+ "n_women": 157,
+ "n_cycles_with_history": 1198,
+ "n_women_with_history": 132,
+ "variation": {
+  "ovulation": {
+   "median": 15.0,
+   "iqr": [
+    14.0,
+    18.0
+   ],
+   "p5_p95": [
+    11.0,
+    23.0
+   ],
+   "icc": 0.6394,
+   "sd_within": 2.224
+  },
+  "luteal": {
+   "median": 13.0,
+   "iqr": [
+    12.0,
+    14.0
+   ],
+   "p5_p95": [
+    10.0,
+    17.0
+   ],
+   "icc": 0.4819,
+   "sd_within": 1.934
+  },
+  "length": {
+   "median": 28.0,
+   "iqr": [
+    27.0,
+    31.0
+   ],
+   "p5_p95": [
+    25.0,
+    37.0
+   ],
+   "icc": 0.5222,
+   "sd_within": 2.578
+  }
+ },
+ "share_ovulation_day14": 0.1502,
+ "share_luteal_14": 0.1776,
+ "ovulation_error": {
+  "day 14": {
+   "median_abs": 2.0,
+   "within_1": 0.414,
+   "within_2": 0.6002,
+   "mean": -1.782
+  },
+  "usual length": {
+   "median_abs": 2.0,
+   "within_1": 0.4599,
+   "within_2": 0.6628,
+   "mean": -0.6185
+  },
+  "actual length": {
+   "median_abs": 1.0,
+   "within_1": 0.5326,
+   "within_2": 0.7688,
+   "mean": -0.6803
+  }
+ },
+ "hit_rates": [
+  {
+   "rule": "day 14",
+   "ovulatory": 0.5275,
+   "ovulatory_lo": 0.4685,
+   "ovulatory_hi": 0.5849,
+   "luteal": 0.6002,
+   "luteal_lo": 0.5414,
+   "luteal_hi": 0.6581,
+   "n_factor_luteal": 2.776
+  },
+  {
+   "rule": "usual length",
+   "ovulatory": 0.5701,
+   "ovulatory_lo": 0.5218,
+   "ovulatory_hi": 0.6186,
+   "luteal": 0.6619,
+   "luteal_lo": 0.6091,
+   "luteal_hi": 0.7092,
+   "n_factor_luteal": 2.282
+  },
+  {
+   "rule": "actual length",
+   "ovulatory": 0.7287,
+   "ovulatory_lo": 0.6726,
+   "ovulatory_hi": 0.7777,
+   "luteal": 0.7688,
+   "luteal_lo": 0.7125,
+   "luteal_hi": 0.8158,
+   "n_factor_luteal": 1.692
+  }
+ ],
+ "hit_rate_mid_luteal_by_arm": {
+  "0": {
+   "day 14": 0.6097,
+   "usual length": 0.6538,
+   "actual length": 0.8069
+  },
+  "1": {
+   "day 14": 0.5856,
+   "usual length": 0.6744,
+   "actual length": 0.7104
+  }
+ },
+ "day21_after_next_menses": 0.0008347,
+ "women_with_8_cycles": 99,
+ "sd_ovulation_within_median": 1.868,
+ "windows": {
+  "periovulatory": [
+   -2,
+   1
+  ],
+  "mid_luteal": [
+   5,
+   9
+  ]
+ }
+}

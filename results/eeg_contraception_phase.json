@@ -1,0 +1,432 @@
+{
+ "dataset": "OpenNeuro ds007615 v1.0.0",
+ "n_women": 69,
+ "n_users": 37,
+ "n_nonusers": 32,
+ "users_by_type": {
+  "progestin-only": 21,
+  "combined": 16
+ },
+ "quality": {
+  "epochs_kept_median": 116.0,
+  "epochs_kept_min": 71,
+  "epochs_per_recording": 120.0,
+  "bad_channels_median": 2.5,
+  "bad_channels_max": 11
+ },
+ "measures_mean_sd": {
+  "alpha_rel_ec": [
+   0.5638,
+   0.1696
+  ],
+  "paf_ec": [
+   10.37,
+   0.7545
+  ],
+  "alpha_abs_ec": [
+   1.677,
+   0.4673
+  ],
+  "beta_rel_ec": [
+   0.1621,
+   0.08906
+  ],
+  "aperiodic_ec": [
+   1.314,
+   0.292
+  ],
+  "alpha_reactivity": [
+   0.6332,
+   0.2831
+  ],
+  "frontal_alpha_rel_ec": [
+   0.4126,
+   0.1713
+  ]
+ },
+ "users_vs_nonusers": [
+  {
+   "measure": "alpha_rel_ec",
+   "n": 69,
+   "diff": 0.05666,
+   "d": 0.3346,
+   "d_lo": -0.1483,
+   "d_hi": 0.8175,
+   "p": 0.1712,
+   "p_holm": 0.862
+  },
+  {
+   "measure": "paf_ec",
+   "n": 69,
+   "diff": -0.2697,
+   "d": -0.3579,
+   "d_lo": -0.8408,
+   "d_hi": 0.125,
+   "p": 0.1437,
+   "p_holm": 0.862
+  },
+  {
+   "measure": "alpha_abs_ec",
+   "n": 69,
+   "diff": 0.2209,
+   "d": 0.4796,
+   "d_lo": -0.003288,
+   "d_hi": 0.9625,
+   "p": 0.05153,
+   "p_holm": 0.3607
+  },
+  {
+   "measure": "beta_rel_ec",
+   "n": 69,
+   "diff": -0.01343,
+   "d": -0.149,
+   "d_lo": -0.6319,
+   "d_hi": 0.3339,
+   "p": 0.54,
+   "p_holm": 1.0
+  },
+  {
+   "measure": "aperiodic_ec",
+   "n": 69,
+   "diff": 0.01174,
+   "d": 0.04043,
+   "d_lo": -0.4424,
+   "d_hi": 0.5233,
+   "p": 0.8677,
+   "p_holm": 1.0
+  },
+  {
+   "measure": "alpha_reactivity",
+   "n": 69,
+   "diff": -0.02593,
+   "d": -0.09055,
+   "d_lo": -0.5734,
+   "d_hi": 0.3923,
+   "p": 0.7093,
+   "p_holm": 1.0
+  },
+  {
+   "measure": "frontal_alpha_rel_ec",
+   "n": 69,
+   "diff": 0.05791,
+   "d": 0.3393,
+   "d_lo": -0.1436,
+   "d_hi": 0.8222,
+   "p": 0.1654,
+   "p_holm": 0.862
+  }
+ ],
+ "by_type": [
+  {
+   "measure": "alpha_rel_ec",
+   "n": 48,
+   "diff": 0.07788,
+   "d": 0.4536,
+   "d_lo": -0.1649,
+   "d_hi": 1.072,
+   "p": 0.1466,
+   "p_holm": 0.8796,
+   "type": "combined"
+  },
+  {
+   "measure": "paf_ec",
+   "n": 48,
+   "diff": -0.2785,
+   "d": -0.3472,
+   "d_lo": -0.9657,
+   "d_hi": 0.2713,
+   "p": 0.2642,
+   "p_holm": 1.0,
+   "type": "combined"
+  },
+  {
+   "measure": "alpha_abs_ec",
+   "n": 48,
+   "diff": 0.2851,
+   "d": 0.6274,
+   "d_lo": 0.00895,
+   "d_hi": 1.246,
+   "p": 0.04691,
+   "p_holm": 0.3284,
+   "type": "combined"
+  },
+  {
+   "measure": "beta_rel_ec",
+   "n": 48,
+   "diff": -0.02593,
+   "d": -0.3052,
+   "d_lo": -0.9237,
+   "d_hi": 0.3133,
+   "p": 0.3256,
+   "p_holm": 1.0,
+   "type": "combined"
+  },
+  {
+   "measure": "aperiodic_ec",
+   "n": 48,
+   "diff": -0.1025,
+   "d": -0.338,
+   "d_lo": -0.9565,
+   "d_hi": 0.2805,
+   "p": 0.2769,
+   "p_holm": 1.0,
+   "type": "combined"
+  },
+  {
+   "measure": "alpha_reactivity",
+   "n": 48,
+   "diff": -0.0195,
+   "d": -0.0675,
+   "d_lo": -0.686,
+   "d_hi": 0.551,
+   "p": 0.827,
+   "p_holm": 1.0,
+   "type": "combined"
+  },
+  {
+   "measure": "frontal_alpha_rel_ec",
+   "n": 48,
+   "diff": 0.06872,
+   "d": 0.4014,
+   "d_lo": -0.2171,
+   "d_hi": 1.02,
+   "p": 0.1978,
+   "p_holm": 0.989,
+   "type": "combined"
+  },
+  {
+   "measure": "alpha_rel_ec",
+   "n": 53,
+   "diff": 0.03802,
+   "d": 0.2172,
+   "d_lo": -0.3556,
+   "d_hi": 0.7899,
+   "p": 0.4498,
+   "p_holm": 1.0,
+   "type": "progestin-only"
+  },
+  {
+   "measure": "paf_ec",
+   "n": 53,
+   "diff": -0.2576,
+   "d": -0.342,
+   "d_lo": -0.9147,
+   "d_hi": 0.2308,
+   "p": 0.2361,
+   "p_holm": 1.0,
+   "type": "progestin-only"
+  },
+  {
+   "measure": "alpha_abs_ec",
+   "n": 53,
+   "diff": 0.1772,
+   "d": 0.3752,
+   "d_lo": -0.1975,
+   "d_hi": 0.948,
+   "p": 0.1942,
+   "p_holm": 1.0,
+   "type": "progestin-only"
+  },
+  {
+   "measure": "beta_rel_ec",
+   "n": 53,
+   "diff": -0.001796,
+   "d": -0.01858,
+   "d_lo": -0.5913,
+   "d_hi": 0.5542,
+   "p": 0.9483,
+   "p_holm": 1.0,
+   "type": "progestin-only"
+  },
+  {
+   "measure": "aperiodic_ec",
+   "n": 53,
+   "diff": 0.09474,
+   "d": 0.3296,
+   "d_lo": -0.2431,
+   "d_hi": 0.9024,
+   "p": 0.2532,
+   "p_holm": 1.0,
+   "type": "progestin-only"
+  },
+  {
+   "measure": "alpha_reactivity",
+   "n": 53,
+   "diff": -0.04543,
+   "d": -0.1476,
+   "d_lo": -0.7204,
+   "d_hi": 0.4251,
+   "p": 0.607,
+   "p_holm": 1.0,
+   "type": "progestin-only"
+  },
+  {
+   "measure": "frontal_alpha_rel_ec",
+   "n": 53,
+   "diff": 0.05041,
+   "d": 0.2896,
+   "d_lo": -0.2832,
+   "d_hi": 0.8623,
+   "p": 0.3148,
+   "p_holm": 1.0,
+   "type": "progestin-only"
+  }
+ ],
+ "without_hormonal_treatment": [
+  {
+   "measure": "alpha_rel_ec",
+   "n": 65,
+   "diff": 0.06126,
+   "d": 0.3601,
+   "d_lo": -0.1379,
+   "d_hi": 0.8581,
+   "p": 0.1534,
+   "p_holm": 0.861
+  },
+  {
+   "measure": "paf_ec",
+   "n": 65,
+   "diff": -0.2645,
+   "d": -0.3439,
+   "d_lo": -0.8419,
+   "d_hi": 0.1541,
+   "p": 0.1724,
+   "p_holm": 0.861
+  },
+  {
+   "measure": "alpha_abs_ec",
+   "n": 65,
+   "diff": 0.223,
+   "d": 0.4864,
+   "d_lo": -0.01168,
+   "d_hi": 0.9844,
+   "p": 0.05545,
+   "p_holm": 0.3881
+  },
+  {
+   "measure": "beta_rel_ec",
+   "n": 65,
+   "diff": -0.01386,
+   "d": -0.1521,
+   "d_lo": -0.6502,
+   "d_hi": 0.3459,
+   "p": 0.5437,
+   "p_holm": 1.0
+  },
+  {
+   "measure": "aperiodic_ec",
+   "n": 65,
+   "diff": 0.009052,
+   "d": 0.0311,
+   "d_lo": -0.4669,
+   "d_hi": 0.5291,
+   "p": 0.9011,
+   "p_holm": 1.0
+  },
+  {
+   "measure": "alpha_reactivity",
+   "n": 65,
+   "diff": 0.008044,
+   "d": 0.02919,
+   "d_lo": -0.4688,
+   "d_hi": 0.5272,
+   "p": 0.9071,
+   "p_holm": 1.0
+  },
+  {
+   "measure": "frontal_alpha_rel_ec",
+   "n": 65,
+   "diff": 0.06307,
+   "d": 0.3691,
+   "d_lo": -0.1289,
+   "d_hi": 0.8672,
+   "p": 0.1435,
+   "p_holm": 0.861
+  }
+ ],
+ "phase_label_rule": {
+  "follicular": [
+   1.0,
+   6.0
+  ],
+  "ovulatory": [
+   7.0,
+   12.0
+  ],
+  "luteal": [
+   14.0,
+   29.0
+  ]
+ },
+ "phase_relabel": {
+  "n_both": 26,
+  "same_label": 14,
+  "crosstab": {
+   "follicular->follicular": 6,
+   "follicular->ovulatory": 0,
+   "follicular->luteal": 0,
+   "ovulatory->follicular": 5,
+   "ovulatory->ovulatory": 0,
+   "ovulatory->luteal": 1,
+   "luteal->follicular": 2,
+   "luteal->ovulatory": 4,
+   "luteal->luteal": 8
+  }
+ },
+ "luteal_vs_other": [
+  {
+   "measure": "alpha_rel_ec",
+   "n": 27,
+   "diff": -0.0426,
+   "d": -0.2428,
+   "d_lo": -1.059,
+   "d_hi": 0.5737,
+   "p": 0.5452,
+   "rule": "dataset",
+   "n_luteal": 15,
+   "n_other": 12
+  },
+  {
+   "measure": "paf_ec",
+   "n": 27,
+   "diff": 0.3263,
+   "d": 0.4536,
+   "d_lo": -0.3629,
+   "d_hi": 1.27,
+   "p": 0.2628,
+   "rule": "dataset",
+   "n_luteal": 15,
+   "n_other": 12
+  },
+  {
+   "measure": "alpha_rel_ec",
+   "n": 29,
+   "diff": -0.1147,
+   "d": -0.71,
+   "d_lo": -1.535,
+   "d_hi": 0.1149,
+   "p": 0.08857,
+   "rule": "backward",
+   "n_luteal": 10,
+   "n_other": 19
+  },
+  {
+   "measure": "paf_ec",
+   "n": 29,
+   "diff": 0.1974,
+   "d": 0.2395,
+   "d_lo": -0.5854,
+   "d_hi": 1.064,
+   "p": 0.5558,
+   "rule": "backward",
+   "n_luteal": 10,
+   "n_other": 19
+  }
+ ],
+ "mde_d": {
+  "users_vs_nonusers": 0.6862,
+  "luteal_vs_other_nonusers": 1.129,
+  "within_same_women_assumed_rho": 0.3543
+ },
+ "assumed_rho": 0.8
+}

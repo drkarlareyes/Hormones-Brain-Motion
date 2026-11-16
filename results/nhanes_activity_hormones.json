@@ -1,0 +1,556 @@
+{
+ "dataset": "NHANES 2013-2014",
+ "n_adults": 3815,
+ "n_women": 2027,
+ "n_men": 1788,
+ "median_by_sex": {
+  "F": {
+   "activity": 13.93,
+   "sleep": 7.705,
+   "activity_cv": 0.1515
+  },
+  "M": {
+   "activity": 12.91,
+   "sleep": 7.491,
+   "activity_cv": 0.166
+  }
+ },
+ "by_age_band": [
+  {
+   "sex": "F",
+   "band": 20,
+   "measure": "activity",
+   "n": 161,
+   "mean": 14.59,
+   "lo": 14.08,
+   "hi": 15.1
+  },
+  {
+   "sex": "F",
+   "band": 20,
+   "measure": "sleep",
+   "n": 161,
+   "mean": 8.076,
+   "lo": 7.83,
+   "hi": 8.322
+  },
+  {
+   "sex": "F",
+   "band": 25,
+   "measure": "activity",
+   "n": 137,
+   "mean": 14.98,
+   "lo": 14.26,
+   "hi": 15.71
+  },
+  {
+   "sex": "F",
+   "band": 25,
+   "measure": "sleep",
+   "n": 137,
+   "mean": 7.862,
+   "lo": 7.631,
+   "hi": 8.093
+  },
+  {
+   "sex": "F",
+   "band": 30,
+   "measure": "activity",
+   "n": 178,
+   "mean": 15.15,
+   "lo": 14.42,
+   "hi": 15.88
+  },
+  {
+   "sex": "F",
+   "band": 30,
+   "measure": "sleep",
+   "n": 178,
+   "mean": 7.754,
+   "lo": 7.519,
+   "hi": 7.989
+  },
+  {
+   "sex": "F",
+   "band": 35,
+   "measure": "activity",
+   "n": 165,
+   "mean": 14.89,
+   "lo": 14.34,
+   "hi": 15.44
+  },
+  {
+   "sex": "F",
+   "band": 35,
+   "measure": "sleep",
+   "n": 165,
+   "mean": 7.596,
+   "lo": 7.395,
+   "hi": 7.798
+  },
+  {
+   "sex": "F",
+   "band": 40,
+   "measure": "activity",
+   "n": 209,
+   "mean": 14.53,
+   "lo": 13.97,
+   "hi": 15.09
+  },
+  {
+   "sex": "F",
+   "band": 40,
+   "measure": "sleep",
+   "n": 209,
+   "mean": 7.705,
+   "lo": 7.486,
+   "hi": 7.923
+  },
+  {
+   "sex": "F",
+   "band": 45,
+   "measure": "activity",
+   "n": 192,
+   "mean": 14.7,
+   "lo": 14.19,
+   "hi": 15.21
+  },
+  {
+   "sex": "F",
+   "band": 45,
+   "measure": "sleep",
+   "n": 192,
+   "mean": 7.708,
+   "lo": 7.359,
+   "hi": 8.056
+  },
+  {
+   "sex": "F",
+   "band": 50,
+   "measure": "activity",
+   "n": 186,
+   "mean": 13.41,
+   "lo": 12.82,
+   "hi": 14.01
+  },
+  {
+   "sex": "F",
+   "band": 50,
+   "measure": "sleep",
+   "n": 186,
+   "mean": 8.145,
+   "lo": 7.74,
+   "hi": 8.549
+  },
+  {
+   "sex": "F",
+   "band": 55,
+   "measure": "activity",
+   "n": 187,
+   "mean": 13.8,
+   "lo": 13.47,
+   "hi": 14.12
+  },
+  {
+   "sex": "F",
+   "band": 55,
+   "measure": "sleep",
+   "n": 187,
+   "mean": 7.759,
+   "lo": 7.587,
+   "hi": 7.93
+  },
+  {
+   "sex": "F",
+   "band": 60,
+   "measure": "activity",
+   "n": 202,
+   "mean": 13.31,
+   "lo": 12.59,
+   "hi": 14.03
+  },
+  {
+   "sex": "F",
+   "band": 60,
+   "measure": "sleep",
+   "n": 202,
+   "mean": 8.028,
+   "lo": 7.722,
+   "hi": 8.334
+  },
+  {
+   "sex": "F",
+   "band": 65,
+   "measure": "activity",
+   "n": 178,
+   "mean": 12.96,
+   "lo": 12.37,
+   "hi": 13.55
+  },
+  {
+   "sex": "F",
+   "band": 65,
+   "measure": "sleep",
+   "n": 178,
+   "mean": 8.363,
+   "lo": 8.095,
+   "hi": 8.631
+  },
+  {
+   "sex": "F",
+   "band": 70,
+   "measure": "activity",
+   "n": 152,
+   "mean": 11.48,
+   "lo": 10.8,
+   "hi": 12.15
+  },
+  {
+   "sex": "F",
+   "band": 70,
+   "measure": "sleep",
+   "n": 152,
+   "mean": 8.654,
+   "lo": 8.358,
+   "hi": 8.951
+  },
+  {
+   "sex": "F",
+   "band": 75,
+   "measure": "activity",
+   "n": 80,
+   "mean": 11.02,
+   "lo": 10.39,
+   "hi": 11.66
+  },
+  {
+   "sex": "F",
+   "band": 75,
+   "measure": "sleep",
+   "n": 80,
+   "mean": 8.676,
+   "lo": 8.344,
+   "hi": 9.009
+  },
+  {
+   "sex": "M",
+   "band": 20,
+   "measure": "activity",
+   "n": 135,
+   "mean": 14.93,
+   "lo": 14.47,
+   "hi": 15.39
+  },
+  {
+   "sex": "M",
+   "band": 20,
+   "measure": "sleep",
+   "n": 135,
+   "mean": 7.369,
+   "lo": 7.148,
+   "hi": 7.591
+  },
+  {
+   "sex": "M",
+   "band": 25,
+   "measure": "activity",
+   "n": 137,
+   "mean": 14.01,
+   "lo": 13.26,
+   "hi": 14.77
+  },
+  {
+   "sex": "M",
+   "band": 25,
+   "measure": "sleep",
+   "n": 137,
+   "mean": 7.767,
+   "lo": 7.359,
+   "hi": 8.175
+  },
+  {
+   "sex": "M",
+   "band": 30,
+   "measure": "activity",
+   "n": 174,
+   "mean": 13.73,
+   "lo": 13.21,
+   "hi": 14.24
+  },
+  {
+   "sex": "M",
+   "band": 30,
+   "measure": "sleep",
+   "n": 174,
+   "mean": 7.729,
+   "lo": 7.399,
+   "hi": 8.06
+  },
+  {
+   "sex": "M",
+   "band": 35,
+   "measure": "activity",
+   "n": 143,
+   "mean": 14.49,
+   "lo": 13.8,
+   "hi": 15.19
+  },
+  {
+   "sex": "M",
+   "band": 35,
+   "measure": "sleep",
+   "n": 143,
+   "mean": 7.518,
+   "lo": 7.216,
+   "hi": 7.821
+  },
+  {
+   "sex": "M",
+   "band": 40,
+   "measure": "activity",
+   "n": 162,
+   "mean": 13.92,
+   "lo": 13.37,
+   "hi": 14.48
+  },
+  {
+   "sex": "M",
+   "band": 40,
+   "measure": "sleep",
+   "n": 162,
+   "mean": 7.381,
+   "lo": 7.139,
+   "hi": 7.623
+  },
+  {
+   "sex": "M",
+   "band": 45,
+   "measure": "activity",
+   "n": 166,
+   "mean": 13.85,
+   "lo": 13.17,
+   "hi": 14.53
+  },
+  {
+   "sex": "M",
+   "band": 45,
+   "measure": "sleep",
+   "n": 166,
+   "mean": 7.58,
+   "lo": 7.334,
+   "hi": 7.827
+  },
+  {
+   "sex": "M",
+   "band": 50,
+   "measure": "activity",
+   "n": 160,
+   "mean": 13.29,
+   "lo": 12.71,
+   "hi": 13.87
+  },
+  {
+   "sex": "M",
+   "band": 50,
+   "measure": "sleep",
+   "n": 160,
+   "mean": 7.602,
+   "lo": 7.264,
+   "hi": 7.941
+  },
+  {
+   "sex": "M",
+   "band": 55,
+   "measure": "activity",
+   "n": 162,
+   "mean": 12.99,
+   "lo": 12.43,
+   "hi": 13.56
+  },
+  {
+   "sex": "M",
+   "band": 55,
+   "measure": "sleep",
+   "n": 162,
+   "mean": 7.789,
+   "lo": 7.507,
+   "hi": 8.07
+  },
+  {
+   "sex": "M",
+   "band": 60,
+   "measure": "activity",
+   "n": 194,
+   "mean": 12.04,
+   "lo": 11.32,
+   "hi": 12.76
+  },
+  {
+   "sex": "M",
+   "band": 60,
+   "measure": "sleep",
+   "n": 194,
+   "mean": 8.304,
+   "lo": 7.968,
+   "hi": 8.639
+  },
+  {
+   "sex": "M",
+   "band": 65,
+   "measure": "activity",
+   "n": 144,
+   "mean": 11.26,
+   "lo": 10.6,
+   "hi": 11.91
+  },
+  {
+   "sex": "M",
+   "band": 65,
+   "measure": "sleep",
+   "n": 144,
+   "mean": 8.483,
+   "lo": 8.084,
+   "hi": 8.883
+  },
+  {
+   "sex": "M",
+   "band": 70,
+   "measure": "activity",
+   "n": 127,
+   "mean": 10.2,
+   "lo": 9.382,
+   "hi": 11.02
+  },
+  {
+   "sex": "M",
+   "band": 70,
+   "measure": "sleep",
+   "n": 127,
+   "mean": 8.811,
+   "lo": 8.306,
+   "hi": 9.315
+  },
+  {
+   "sex": "M",
+   "band": 75,
+   "measure": "activity",
+   "n": 84,
+   "mean": 10.28,
+   "lo": 9.5,
+   "hi": 11.06
+  },
+  {
+   "sex": "M",
+   "band": 75,
+   "measure": "sleep",
+   "n": 84,
+   "mean": 8.842,
+   "lo": 8.577,
+   "hi": 9.108
+  }
+ ],
+ "women_minus_men_age_adjusted": {
+  "activity": {
+   "diff": 0.7985,
+   "lo": 0.5512,
+   "hi": 1.046,
+   "p": 2.456e-10
+  },
+  "sleep": {
+   "diff": 0.1187,
+   "lo": 0.0006475,
+   "hi": 0.2367,
+   "p": 0.04876
+  },
+  "activity_cv": {
+   "diff": -0.01458,
+   "lo": -0.02181,
+   "hi": -0.007352,
+   "p": 7.701e-05
+  }
+ },
+ "menopause": {
+  "n": {
+   "menstruating": 304,
+   "menopause": 199
+  },
+  "results": [
+   {
+    "measure": "activity",
+    "n": 503,
+    "diff": -0.2478,
+    "lo": -1.608,
+    "hi": 1.113,
+    "d": -0.07134,
+    "d_lo": -0.463,
+    "d_hi": 0.3203,
+    "p": 0.7211
+   },
+   {
+    "measure": "sleep",
+    "n": 503,
+    "diff": -0.1563,
+    "lo": -1.15,
+    "hi": 0.8377,
+    "d": -0.08826,
+    "d_lo": -0.6494,
+    "d_hi": 0.4729,
+    "p": 0.7579
+   },
+   {
+    "measure": "activity_cv",
+    "n": 503,
+    "diff": -0.01873,
+    "lo": -0.04921,
+    "hi": 0.01174,
+    "d": -0.1977,
+    "d_lo": -0.5193,
+    "d_hi": 0.1239,
+    "p": 0.2282
+   }
+  ]
+ },
+ "estradiol": {
+  "n": 679,
+  "median": 77.2,
+  "p5": 11.48,
+  "p95": 283.4,
+  "below_lod": 0.008837,
+  "menopause_median": 6.205,
+  "results": [
+   {
+    "measure": "activity",
+    "n": 679,
+    "per_doubling": 0.1132,
+    "lo": -0.1114,
+    "hi": 0.3378,
+    "d": 0.03112,
+    "d_lo": -0.03063,
+    "d_hi": 0.09287,
+    "p": 0.3233
+   },
+   {
+    "measure": "sleep",
+    "n": 679,
+    "per_doubling": -0.005705,
+    "lo": -0.1037,
+    "hi": 0.09225,
+    "d": -0.003489,
+    "d_lo": -0.06338,
+    "d_hi": 0.05641,
+    "p": 0.9091
+   },
+   {
+    "measure": "activity_cv",
+    "n": 679,
+    "per_doubling": -0.002596,
+    "lo": -0.008875,
+    "hi": 0.003684,
+    "d": -0.02668,
+    "d_lo": -0.09124,
+    "d_hi": 0.03787,
+    "p": 0.4179
+   }
+  ]
+ }
+}

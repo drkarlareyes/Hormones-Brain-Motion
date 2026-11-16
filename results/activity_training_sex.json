@@ -1,0 +1,184 @@
+{
+ "dataset": "CAPTURE-24",
+ "n_participants": 151,
+ "n_women": 99,
+ "n_men": 52,
+ "splits": 50,
+ "test_per_sex": 12,
+ "train_size": 40,
+ "windows_per_person_train": 1500,
+ "tested_at_least_once": {
+  "F": 95,
+  "M": 52
+ },
+ "labelled_windows_median": 6139.0,
+ "hours_median_by_sex": {
+  "F": {
+   "sleep": 6.833,
+   "sedentary": 6.442,
+   "light": 2.992,
+   "moderate-vigorous": 0.4944
+  },
+  "M": {
+   "sleep": 5.458,
+   "sedentary": 7.254,
+   "light": 2.554,
+   "moderate-vigorous": 0.6014
+  }
+ },
+ "macro_f1": [
+  {
+   "sex": "F",
+   "train": "men",
+   "n": 95,
+   "mean": 0.6718,
+   "lo": 0.6534,
+   "hi": 0.6893
+  },
+  {
+   "sex": "F",
+   "train": "women",
+   "n": 95,
+   "mean": 0.6756,
+   "lo": 0.6576,
+   "hi": 0.6932
+  },
+  {
+   "sex": "F",
+   "train": "mixed",
+   "n": 95,
+   "mean": 0.6713,
+   "lo": 0.6533,
+   "hi": 0.6884
+  },
+  {
+   "sex": "M",
+   "train": "men",
+   "n": 52,
+   "mean": 0.6675,
+   "lo": 0.6433,
+   "hi": 0.6936
+  },
+  {
+   "sex": "M",
+   "train": "women",
+   "n": 52,
+   "mean": 0.6678,
+   "lo": 0.6435,
+   "hi": 0.6935
+  },
+  {
+   "sex": "M",
+   "train": "mixed",
+   "n": 52,
+   "mean": 0.6693,
+   "lo": 0.6459,
+   "hi": 0.6946
+  }
+ ],
+ "sd_between_people": 0.08817,
+ "own_sex_difference": [
+  {
+   "sex": "F",
+   "score": "macro_f1",
+   "n": 95,
+   "diff": 0.003836,
+   "lo": -0.002568,
+   "hi": 0.01066,
+   "p_wilcoxon": 0.2969
+  },
+  {
+   "sex": "F",
+   "score": "f1_sleep",
+   "n": 95,
+   "diff": 0.006854,
+   "lo": -0.0002342,
+   "hi": 0.01386,
+   "p_wilcoxon": 0.05145
+  },
+  {
+   "sex": "F",
+   "score": "f1_sedentary",
+   "n": 95,
+   "diff": -0.0007199,
+   "lo": -0.008905,
+   "hi": 0.006953,
+   "p_wilcoxon": 0.8007
+  },
+  {
+   "sex": "F",
+   "score": "f1_light",
+   "n": 95,
+   "diff": 0.01492,
+   "lo": 0.008263,
+   "hi": 0.0218,
+   "p_wilcoxon": 2.102e-05
+  },
+  {
+   "sex": "F",
+   "score": "f1_moderate-vigorous",
+   "n": 83,
+   "diff": -0.009866,
+   "lo": -0.03257,
+   "hi": 0.01483,
+   "p_wilcoxon": 0.4483
+  },
+  {
+   "sex": "M",
+   "score": "macro_f1",
+   "n": 52,
+   "diff": -0.0003579,
+   "lo": -0.01162,
+   "hi": 0.009882,
+   "p_wilcoxon": 0.4335
+  },
+  {
+   "sex": "M",
+   "score": "f1_sleep",
+   "n": 52,
+   "diff": 0.006836,
+   "lo": -0.003062,
+   "hi": 0.0167,
+   "p_wilcoxon": 0.3077
+  },
+  {
+   "sex": "M",
+   "score": "f1_sedentary",
+   "n": 52,
+   "diff": 0.002183,
+   "lo": -0.007431,
+   "hi": 0.01199,
+   "p_wilcoxon": 0.5418
+  },
+  {
+   "sex": "M",
+   "score": "f1_light",
+   "n": 52,
+   "diff": 0.002874,
+   "lo": -0.00681,
+   "hi": 0.01211,
+   "p_wilcoxon": 0.2785
+  },
+  {
+   "sex": "M",
+   "score": "f1_moderate-vigorous",
+   "n": 48,
+   "diff": -0.01326,
+   "lo": -0.04894,
+   "hi": 0.02306,
+   "p_wilcoxon": 0.688
+  }
+ ],
+ "mixed_minus_other_sex": {
+  "F": [
+   -0.0005202,
+   -0.005944,
+   0.004585
+  ],
+  "M": [
+   0.001422,
+   -0.004296,
+   0.006803
+  ]
+ }
+}
